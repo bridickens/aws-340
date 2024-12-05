@@ -1,0 +1,119 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelpingHand",
+          "samples": [
+            "i need a helpful message",
+            "i need a helping hand",
+            "helpful message"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "meditation_option",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "GuidedMeditation",
+          "samples": [
+            "{meditation_option} meditation",
+            "{meditation_option}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FunFact",
+          "samples": [
+            "fun fact",
+            "i choose fun fact",
+            "give me a fun fact"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HealthInfo",
+          "samples": [
+            "what number can i call",
+            "mental health",
+            "mental health info"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "fandom"
+              }
+            },
+            {
+              "name": {
+                "value": "funny"
+              }
+            },
+            {
+              "name": {
+                "value": "fun fact"
+              }
+            },
+            {
+              "name": {
+                "value": "cheerful"
+              }
+            }
+          ],
+          "name": "GENRE"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "short"
+              }
+            },
+            {
+              "name": {
+                "value": "long"
+              }
+            }
+          ],
+          "name": "MEDTYPE"
+        }
+      ],
+      "invocationName": "helpful hand"
+    }
+  }
+}
